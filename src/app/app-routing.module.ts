@@ -1,15 +1,42 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { CategoriaComponent } from './pages/categoria/categoria.component';
+import { FavoritosComponent } from './pages/favoritos/favoritos.component';
+import { FirstTabComponent } from './pages/first-tab/first-tab.component';
+import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login/login.component';
+import { PerfilComponent } from './pages/perfil/perfil.component';
 
 const routes: Routes = [
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+    path: '',
+    redirectTo: 'first-tab',
+    pathMatch: 'full'
   },
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
+    path: 'login',
+    component: LoginComponent
+  },
+  {
+    path: 'cadastro',
+    component: CadastroComponent
+  },
+  {
+    path: 'categoria',
+    component: CategoriaComponent
+  },
+  {
+    path: 'favoritos',
+    component: FavoritosComponent
+  },
+  {
+    path: 'perfil',
+    component: PerfilComponent
+  },
+  {
+    path: 'first-tab',
+    component: FirstTabComponent
   },
 ];
 
