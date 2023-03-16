@@ -2,7 +2,9 @@
 
   <div class="conteudo">
 
-    <img src="" alt="">
+    <img class="voltar" (click)="voltar()" src="../../../assets/seta-voltar.svg" alt="">
+
+    <img src="../../../assets/img-inicial.svg" alt="">
 
     <section class="form">
       <div class="texto">
@@ -12,7 +14,7 @@
 
       <div class="input">
         <ion-label>E-mail</ion-label>
-        <ion-input><ion-img src="../../../assets/email-icon.svg" ></ion-img></ion-input>
+        <ion-input placeholder="digite seu email..."><ion-img src="../../../assets/email-icon.svg" ></ion-img></ion-input>
       </div>
 
       <div class="input">
@@ -20,7 +22,9 @@
         <ion-input><ion-img src="../../../assets/senha-icon.svg" ></ion-img></ion-input>
       </div>
 
-      <p>Esqueci a senha</p>
+      <div class="senha">
+        <p>Esqueci a senha</p>
+      </div>
 
       <ion-button>Entrar</ion-button>
 
