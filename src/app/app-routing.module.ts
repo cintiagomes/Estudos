@@ -7,6 +7,7 @@ import { FirstTabComponent } from './pages/first-tab/first-tab.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
+import { StartComponent } from './pages/start/start.component';
 
 const routes: Routes = [
   {
@@ -38,6 +39,10 @@ const routes: Routes = [
     path: 'first-tab',
     component: FirstTabComponent
   },
+  {
+    path: 'start',
+    component: StartComponent
+  }
 ];
 
 @NgModule({

@@ -12,7 +12,7 @@ export class FirstTabComponent implements OnInit {
     private navCtrl: NavController,
   ) { 
     setTimeout(() => {
-      this.navCtrl.navigateRoot('login');   
+      this.navCtrl.navigateRoot('start');   
     }, 3000);
   }
 

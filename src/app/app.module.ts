@@ -13,6 +13,7 @@ import { CategoriaComponent } from './pages/categoria/categoria.component';
 import { FavoritosComponent } from './pages/favoritos/favoritos.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { FirstTabComponent } from './pages/first-tab/first-tab.component';
+import { StartComponent } from './pages/start/start.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { FirstTabComponent } from './pages/first-tab/first-tab.component';
     FavoritosComponent,
     PerfilComponent,
     FirstTabComponent,
+    StartComponent,
   ],
   imports: [
     BrowserModule, 
