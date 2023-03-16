@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+.conteudo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    .form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Varela', sans-serif;
+        padding: 14px 22px;
+
+
+        .texto{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            margin-bottom: 2rem;
+
+            span{
+                font-family: 'Varela', sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+                color: #303135;
+                margin-bottom: 10px;
+            }
+    
+            b{
+                color: #828282;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 1rem;
+            }
+        }
+
+        .input{
+            width: 100%;
+            margin-bottom: 1rem;
+
+
+            ion-label{
+                color: #4F4F4F;
+                font-size: 12px;
+                font-family: 'Varela', sans-serif;
+            }
+
+            ion-input{
+                background-color: rgba(255, 124, 45, 0.16);
+                border-radius: 30px;
+            }
+        }
+
+        ion-img{
+            width: 10%;
+            padding: 2px 2px 2px 15px;
+
+        }
+
+        p{
+            font-size: 14px;
+            color: #109BC5;
+            text-align: end;
+        }
+
+        ion-button{
+            margin: 1rem;
+            width: 70%;
+            --background: #FF7C2D;
+            --background-activated: #FF7C2D !important;
+            --background-focused: #FF7C2D !important;
+            --background-hover: #FF7C2D !important;
+            --border-radius: 30px;
+            font-size: 16px;
+
+        }
+
+    }
+
+}
