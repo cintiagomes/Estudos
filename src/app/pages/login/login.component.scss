@@ -59,14 +59,15 @@
 
             ion-label{
                 color: #4F4F4F;
-                font-size: 12px;
+                font-size: 14px;
                 font-family: 'Varela', sans-serif;
             }
 
             ion-input{
                 background-color: rgba(255, 124, 45, 0.16);
                 border-radius: 30px;
-                font-size: 12px;
+                font-size: 14px;
+                height: 2.5rem;
             }
         }
 
@@ -96,6 +97,7 @@
             --background-focused: #FF7C2D !important;
             --background-hover: #FF7C2D !important;
             --border-radius: 30px;
+            text-transform: capitalize !important;
             font-family: 'Roboto', sans-serif;
             font-weight: 400;
             font-size: 16px;

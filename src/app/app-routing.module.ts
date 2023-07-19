@@ -40,6 +40,10 @@ const routes: Routes = [
     component: FirstTabComponent
   },
   {
+    path: 'home',
+    component: HomeComponent
+  },
+  {
     path: 'start',
     component: StartComponent
   }

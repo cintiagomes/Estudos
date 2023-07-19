@@ -18,4 +18,8 @@ export class LoginComponent implements OnInit {
     this.navCtrl.navigateRoot('/start');
   }
 
+  entrar(){
+    this.navCtrl.navigateRoot('/home');
+  }
+
 }
